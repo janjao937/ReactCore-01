@@ -100,10 +100,10 @@ button:active span:nth-child(3) {
 button:active span:nth-child(2) {
     transform: translate(5px, -5px);
 }
-
 button:active span:nth-child(1) {
     transform: translate(0px, 0px);
 }
+
 
 button:nth-child(1):hover span {
     background: #52e19f;
