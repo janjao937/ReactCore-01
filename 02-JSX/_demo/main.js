@@ -32,15 +32,15 @@ const userProfile =(
         <input/>
         <input></input>
         <h1 className ="header">FullName :{fullName}</h1>
-        <h4 style={{color:"salmon",textAlign:"center"}}> age:{5*4} </h4>//set Style
+        <h4 style={{color:"salmon",textAlign:"center"}}> age:{5*4} </h4>{/*/set Style*/}
         <h3 style={{textAlign:"center"}} >{hobby}</h3>
         <h3>Married :{isMarry?"true":"false"}</h3>
         <p>DOG:{pets.dog3}</p>
-        <ul>{favFruitsList}</ul>//add li to child
+        <ul>{favFruitsList}</ul>{/*add li to child*/}
 
         <p style={styleObject}>RandomNumber = {RndNumber()}</p>
 
-        <ul>{favFruits.map((e)=><li>{e}</li>)}</ul>//add li to child in jsx
+        <ul>{ favFruits.map((e)=><li>{e}</li>) }</ul>{/*//add li to child in jsx*/}
 
 
 
